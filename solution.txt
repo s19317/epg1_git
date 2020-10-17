@@ -1,0 +1,12 @@
+$ cd Desktop
+$ git clone https://github.com/squadack/epg1_git
+$ git remote -v
+$ git remote add upstream https://github.com/squadack/epg1_git
+$ git remote -v
+$ git checkout -b hw-s19317
+$ git rebase hw-s19317 rebase-me 
+$ git checkout master
+$ git pull origin
+$ git merge --ff-only hw-s19317
+
+
